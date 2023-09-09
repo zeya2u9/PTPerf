@@ -4,9 +4,12 @@ SA - Statistical Analysis
 
 Website related
 ---------------
-- Curl based results SA
-- Selenium based results SA
-- SpeedIndex based results SA
-- file-download based results SA
+- Curl based results SA [Fig-2a]  
+- Selenium based results SA [Fig-2b]  
+- SpeedIndex based results SA [Fig-11]  
+
+File-download related
+---------------------
+- file-download based results SA [Fig-5]   
 
 
