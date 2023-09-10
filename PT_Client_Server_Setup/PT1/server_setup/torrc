@@ -1,0 +1,20 @@
+DataDirectory datadir
+
+NickName obfs4_test
+
+ControlPort 8051
+# Act as a bridge relay.
+BridgeRelay 1
+OrPort 9001 IPv4Only
+
+# Enable the Extended ORPort
+ExtORPort auto
+
+# Use obfs4proxy to provide the obfs4 protocol.
+ServerTransportPlugin obfs4 exec <path-to-obfs4proxy-module>
+
+# (Optional) Listen on the specified address/port for obfs4 connections as
+# opposed to picking a port automatically.
+ServerTransportListenAddr obfs4 <ip-of-the-machine>:80
+
+SocksPort 8050

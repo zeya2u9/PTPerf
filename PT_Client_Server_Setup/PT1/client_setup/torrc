@@ -1,0 +1,9 @@
+SocksPort 9050
+ControlPort 9051
+UseBridges 1
+
+DataDirectory datadir
+
+ClientTransportPlugin obfs4 exec <path-to-obfs4proxy-module>
+
+Bridge <bridge-line>
