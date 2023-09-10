@@ -1,9 +1,6 @@
 Obfs4 server setup
 ------------------
 
-Follow steps present in the readme of below repository -
-Obfs4 - https://github.com/Yawning/obfs4.git
-
 0. Clone obfs4 repository
 $git clone https://github.com/Yawning/obfs4.git
 $cd obfs4
@@ -30,9 +27,6 @@ obfs4 193.11.166.194:27015 2D82C2E354D531A68469ADF7F878FA6060C6BACA cert=4TLQPJr
 Obfs4 client setup
 ------------------
 
-Follow steps present in the readme of below repository - 
-Obfs4 - https://github.com/Yawning/obfs4.git
-
 0. Clone obfs4 repository
 $git clone https://github.com/Yawning/obfs4.git
 $cd obfs4
@@ -51,5 +45,7 @@ $tor -f <path-to-torrc>
 
 
 
-Side Note:we used obfs4 before it became lyrebird by Tor Project (https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird).
+Side Note1:we used obfs4 before it became lyrebird by Tor Project (https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird).
+Side Note2: You can also setup obfs4 client and server by following the steps present in the readme of obfs4 repository instead of following above steps  
+Obfs4 - https://github.com/Yawning/obfs4.git
 
