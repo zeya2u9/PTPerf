@@ -1,0 +1,9 @@
+SocksPort 9050
+
+#for logging 
+#Log notice file /var/log/tor/notices.log
+#Log debug file /var/log/tor/debug.log
+
+#tor control port
+ControlPort 9051
+
