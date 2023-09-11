@@ -1,0 +1,14 @@
+SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
+
+DataDirectory datadir
+UseBridges 1
+
+Bridge snowflake 192.0.2.3:1 2B280B23E1107BB62ABFC40DDCC8824814F80A72
+ClientTransportPlugin snowflake exec <path-to-snowflake-module> --log snowflake_client.log \
+#-url https://meek.azureedge.net/ \
+#-front ajax.aspnetcdn.com \
+-url https://snowflake-broker.torproject.net.global.prod.fastly.net/ \
+-front cdn.sstatic.net \
+-ice stun:stun.l.google.com:19302
+
+
