@@ -1,7 +1,6 @@
 WebTunnel Server Setup
 ----------------------
 
-
 0. Clone webTunnel repository and build it
 $git clone https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel.git
 $cd webtunnel/main/server
@@ -81,3 +80,4 @@ $go build
 4. start webTunnel client
 $tor -f <path-to-torrc>
 
+NOTE: Above steps are not the only way to setup webtunnel. One can also follow the steps provided on https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel
