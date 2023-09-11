@@ -1,0 +1,28 @@
+[Unit]
+Description=Tor Web Tunnel
+
+[Service]
+Type=simple
+User=root
+DynamicUser=yes
+PrivateUsers=true
+PrivateMounts=true
+ProtectSystem=strict
+PrivateTmp=true
+PrivateDevices=true
+ProtectClock=true
+NoNewPrivileges=true
+ProtectHome=tmpfs
+ProtectKernelModules=true
+ProtectKernelLogs=true
+
+WatchdogSec=240
+Restart=on-watchdog
+RestartSec=2
+
+StateDirectory=torwebtunnel
+
+ExecStart=tor -f /var/lib/torwebtunnel/torrc --RunAsDaemon 0
+
+[Install]
+WantedBy=default.target

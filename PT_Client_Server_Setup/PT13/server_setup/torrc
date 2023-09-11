@@ -1,0 +1,25 @@
+BridgeRelay 1
+AssumeReachable 1
+
+ORPort 10000
+
+ServerTransportPlugin webtunnel exec /var/lib/torwebtunnel/webtunnel
+
+ServerTransportListenAddr webtunnel 127.0.0.1:11000
+
+ServerTransportOptions webtunnel url=<url-of-nginx-server>
+
+ExtORPort auto
+
+#ContactInfo WebTunnel email: tor.relay.email@torproject.net ciissversion:2
+
+Nickname WebTunnelTest4 
+
+#PublishServerDescriptor 1
+#BridgeDistribution none
+
+DataDirectory /var/lib/torwebtunnel/tor-data
+CacheDirectory /tmp/tor-tmp-torwebtunnel
+
+SocksPort 8822
+ControlPort 9051

@@ -1,0 +1,8 @@
+UseBridges 1
+DataDirectory datadir
+
+ClientTransportPlugin webtunnel exec <path-to-webtunnel-module>
+
+Bridge webtunnel <ip-of-webTunnel-server>:443 url=<url-of-website-hosted-at-server-side>
+SocksPort 9050
+#Log info
