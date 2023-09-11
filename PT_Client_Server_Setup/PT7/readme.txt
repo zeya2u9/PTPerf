@@ -11,10 +11,10 @@ $cd meek
 $cd meek-client
 $go build
 
-3. copy torrc given in client_setup folder in your machine
+3. copy torrc given in client_setup folder to your machine
   - replace <path-to-meek-module> with its absolute path 
 
-4. start Obfs4 client
+4. start meek client
 $tor -f <path-to-torrc>
 
 
