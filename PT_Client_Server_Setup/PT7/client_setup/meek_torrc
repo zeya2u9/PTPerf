@@ -1,0 +1,9 @@
+SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
+#
+DataDirectory datadir
+UseBridges 1
+
+Bridge meek 0.0.2.0:3 url=https://meek.azureedge.net/ front=ajax.aspnetcdn.com 
+ClientTransportPlugin meek exec <path-to-meek-module> --log meek_client.log
+
+
