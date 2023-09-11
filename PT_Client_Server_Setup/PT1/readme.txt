@@ -38,7 +38,7 @@ $go build -o obfs4proxy/obfs4proxy ./obfs4proxy
 
 3. copy torrc given in client_setup folder
   - replace <path-to-obfs4proxy-module> with its absolute path
-  - copy bridgeline from DataDir/pt_state/obfs4_bridgeline.txt from your bridge machine; then paste the copied line to client side torrc <bridge-line>. 
+  - copy bridgeline from obfs4/datadir/pt_state/obfs4_bridgeline.txt from your obfs4-server (bridge) machine; then paste the copied line to client side torrc <bridge-line>. 
 
 4. start Obfs4 client
 $tor -f <path-to-torrc>
