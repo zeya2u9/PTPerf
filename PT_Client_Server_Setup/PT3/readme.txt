@@ -48,7 +48,7 @@ $mkdir /etc/shadowsocks-libev
 $/usr/local/bin/ss-local -c /etc/shadowsocks-libev/config.json
 #client has connected to the server and is listening on 1080 port for local requests
 
-5. copy torrc-shadow from client-setup folder to your machine and start tor process. It will proxy all tor data the listening port of shadowsocks client at 1080
+5. copy torrc-shadow from client-setup folder to your machine and start tor process. It will proxy all tor data to port 1080
 $tor -f <path-to-torrc-shadow>
  
 
