@@ -3,6 +3,7 @@ Shadowsocks server setup
 
 0. clone shadowsocks repository
 $git clone https://github.com/shadowsocks/shadowsocks-libev.git
+$cd shadowsocks-libev
 
 1. add dependencies and build from source
 $sudo apt-get install --no-install-recommends gettext build-essential autoconf libtool libpcre3-dev asciidoc xmlto libev-dev libc-ares-dev automake libmbedtls-dev libsodium-dev pkg-config
@@ -30,6 +31,7 @@ Shadowsocks client setup
 
 0. clone shadowsocks repository
 $git clone https://github.com/shadowsocks/shadowsocks-libev.git
+$cd shadowsocks-libev
 
 1. add dependencies and build from source
 $sudo apt-get install --no-install-recommends gettext build-essential autoconf libtool libpcre3-dev asciidoc xmlto libev-dev li>
