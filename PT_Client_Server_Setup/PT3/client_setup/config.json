@@ -1,0 +1,16 @@
+{
+	"local_address": "127.0.0.1",
+	"local_port": 1080,
+	"locals": [
+		{
+			"local_address": "127.0.0.1",
+			"local_port": 1080,
+			"mode": "tcp_and_udp"
+		}
+	],
+	"server": "<server-ip>",
+	"server_port": 8388,
+	"method": "chacha20-ietf-poly1305",
+	"password": "OsO7PY56kncB",
+	"timeout": 7200
+}

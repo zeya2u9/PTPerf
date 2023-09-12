@@ -1,0 +1,4 @@
+SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
+#SocksPort 192.168.0.1:9100 # Bind to this address:port too.
+Socks5Proxy 127.0.0.1:1080
+
