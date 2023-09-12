@@ -11,7 +11,7 @@ $./psiphond -ipaddress <server-ip> -protocol OSSH:9999 generate
 
  - it creates a server-entry.dat file, it will be used at client side
 
-3. start psiphon server
+2. start psiphon server
 $cd psiphond/
 $./psiphond run
 
