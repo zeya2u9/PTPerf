@@ -1,0 +1,27 @@
+{
+  "ProxyBook": {
+    "shadowsocks": [
+      "tcp",
+      "127.0.0.1:8388"
+    ],
+    "openvpn": [
+      "udp",
+      "127.0.0.1:8389"
+    ],
+    "tor": [
+      "tcp",
+      "127.0.0.1:9050"
+    ]
+  },
+  "BindAddr": [
+    ":443",
+    ":80"
+  ],
+  "BypassUID":[
+    "<uid>"
+  ],
+  "RedirAddr": "cloudflare.com",
+  "PrivateKey": "<key>",
+  "_AdminUID": "---Admin UID here (optional)---",
+  "DatabasePath": "userinfo.db"
+}

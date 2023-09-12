@@ -1,0 +1,11 @@
+{
+  "Transport": "direct",
+  "ProxyMethod": "tor",
+  "EncryptionMethod": "plain",
+  "UID": "<uid>",
+  "PublicKey": "<pub>",
+  "ServerName": "www.bing.com",
+  "NumConn": 4,
+  "BrowserSig": "chrome",
+  "StreamTimeout": 600
+}
