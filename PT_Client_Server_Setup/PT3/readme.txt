@@ -14,11 +14,11 @@ it will add ss-local and ss-server binaries in /usr/local/bin/ folder of your ma
 2. make a directory inside /etc with shadowsocks-libev name
 $mkdir /etc/shadowsocks-libev
 
-3 copy config.json file from server-setup folder to above folder
+3. copy config.json file from server-setup folder to above folder
 $cp config.json /etc/shadowsocks-libev/
  - replace <server-ip> with the IP address of your machine
 
-3. start shadowsocks server using ss-server binary
+4. start shadowsocks server using ss-server binary
 $/usr/local/bin/ss-server -c /etc/shadowsocks-libev/config.json 
 
 Now shadowsocks server is listening at port 8388 fro client connections.
@@ -31,24 +31,24 @@ Shadowsocks client setup
 0. clone shadowsocks repository
 $git clone https://github.com/shadowsocks/shadowsocks-libev.git
 
-2. add dependencies and build from source
+1. add dependencies and build from source
 $sudo apt-get install --no-install-recommends gettext build-essential autoconf libtool libpcre3-dev asciidoc xmlto libev-dev li>
 $./autogen.sh && ./configure && make
 $sudo make install
 
 it will add ss-local and ss-server binaries in /usr/local/bin/ folder of your machine
 
-3. make a directory inside /etc with shadowsocks-libev name
+2. make a directory inside /etc with shadowsocks-libev name
 $mkdir /etc/shadowsocks-libev
 
-4. copy config.json from client-setup folder to /etc/shadowsocks-libev/ folder in your machine
+3. copy config.json from client-setup folder to /etc/shadowsocks-libev/ folder in your machine
    - replace <server-ip> with the IP of your shadowsocks server
 
-3. start shadowsocks client
+4. start shadowsocks client
 $/usr/local/bin/ss-local -c /etc/shadowsocks-libev/config.json
 #client has connected to the server and is listening on 1080 port for local requests
 
-4. copy torrc-shadow from client-setup folder to your machine and start tor process. It will proxy all tor data the listening port of shadowsocks client at 1080
+5. copy torrc-shadow from client-setup folder to your machine and start tor process. It will proxy all tor data the listening port of shadowsocks client at 1080
 $tor -f <path-to-torrc-shadow>
  
 
