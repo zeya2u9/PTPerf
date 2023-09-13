@@ -1,4 +1,4 @@
-This version of Camoufler requires three telegram IM accounts (i.e., three pgysical sims for authentication and getting OTPs while creating API tokens).
+This version of Camoufler requires four telegram IM accounts (i.e., four physical sims for authentication and getting OTPs while creating API tokens).
 
 Camoufler Initial Setup(CIS)
 ----------------------
@@ -10,6 +10,7 @@ Camoufler Initial Setup(CIS)
   API-ID1, HASH-ID1, username1
   API-ID2, HASH-ID2, username2
   API-ID3, HASH-ID3, username3
+  API-ID4, HASH-ID4, username4
 
 Camoufler Server Setup(CSS)
 ----------------------

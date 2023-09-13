@@ -5,11 +5,8 @@ import asyncio
 import sys
 
 # Remember to use your own values from my.telegram.org!
-#api_id = 1182520
-#api_hash = 'cf9d9db47f3c77dc922d59fc8e9a9050'
-#client = TelegramClient('client_requester', api_id, api_hash)
-api_id = 15994260
-api_hash = '5c648eb445ab137289cbb4d03c0ea072'
+api_id = <API-ID4>
+api_hash = '<API-HASH4>'
 client = TelegramClient('/root/pTesting/file_download_tg_socks-main/client_requester', api_id, api_hash)
 #client = TelegramClient('client_requester', api_id, api_hash, flood_sleep_threshold=1500)
 
@@ -40,7 +37,7 @@ async def main():
     #time.sleep(2)
     #await asyncio.sleep(0.5)
     print('Time: ',time.asctime(time.localtime())[11:20])
-    await client.send_message('CamoZeya', str(sys.argv[1]))
+    await client.send_message('<username4>', str(sys.argv[1]))
 
     '''# You can print all the dialogs/conversations that you are part of:
     async for dialog in client.iter_dialogs():
