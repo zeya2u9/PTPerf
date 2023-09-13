@@ -2,7 +2,7 @@ This version of Camoufler requires five telegram IM accounts (i.e., five physica
 
 Camoufler Initial Setup(CIS)
 ----------------------
-0. generate API-ID and API-HASH for three IM accounts using below link
+0. generate API-ID and API-HASH for five IM accounts using below link
   https://my.telegram.org/auth
   
 1. Note down usernames for each IM account; it will be used in different scripts to receive messages. 
