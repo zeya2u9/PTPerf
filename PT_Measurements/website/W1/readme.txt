@@ -46,9 +46,5 @@ There are two folders -
 	$python3 w-website.py  //select proper options to proceed
 
    - To make graphs out of the processed data, put tranco results in tranco-1000 folder and blocked results in blocked-1000 folder
-	- run plot 
-
-
-
-Follow some comm
+	- run plotw1.py  
 

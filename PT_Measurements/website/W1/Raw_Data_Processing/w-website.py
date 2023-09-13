@@ -16,11 +16,11 @@ def shape(lst):
 zero_copy = [0]*1000
 
 flag = 1
-loc_list = [  'fra-blr', 'fra-lon','fra-tor','nyc-blr','nyc-lon','nyc-tor','sgp-blr','sgp-lon','sgp-tor', 'Tor-only-blr2', 'Tor-only-lon2', 'Tor-only-tor2' ]
+loc_list = [  'fra-blr', 'fra-lon','fra-tor','nyc-blr','nyc-lon','nyc-tor','sgp-blr','sgp-lon','sgp-tor' ]
 pt_names = [  'Tor-only', 'Obfs4', 'Marionete', 'Shadowsocks', 'Stegotorus', 'Cloak', 'Snowflake', 'Meek','Camoufler', 'Dnstt', 'Massbrowser', 'Psiphon', 'Conjure', 'WebTunnel']
 
 
-result_type = input("choose option: tranco-500 - blocked-200: ")
+result_type = input("choose option: tranco - blocked: ")
 y_axis_var = input("enter eval criteria: Total_Time - Download_Speed - TTFB - TCP_connect: ")
 
 
@@ -33,11 +33,11 @@ for locx in loc_list:
     avg_name_list.append(avg_name)
     #calculate num of lines in a file and store in count
     try:
-        with open(r"/home/nsl300/Documents/overall_result3/{0}/{1}/result_web1/n-trf-tr2.txt".format(location, result_type), 'r') as fp:
+        with open(r"overall_result3/{0}/{1}/result_web1/n-trf-tr2.txt".format(location, result_type), 'r') as fp:
             for count, line in enumerate(fp):
                 pass
     except Exception as e:
-        with open(r"/home/nsl300/Documents/overall_result3/{0}/{1}/result_web1/n-trf-tr0.txt".format(location, result_type), 'r') as fp:
+        with open(r"overall_result3/{0}/{1}/result_web1/n-trf-tr0.txt".format(location, result_type), 'r') as fp:
             for count, line in enumerate(fp):
                 pass
 
@@ -49,7 +49,7 @@ for locx in loc_list:
     for x in range(1,6):
         for y in range(0, 14):
             try:
-                fd["rw{0}".format(x)]["f{0}".format(y)] = open(r"/home/nsl300/Documents/overall_result3/{2}/{3}/result_web{0}/n-trf-tr{1}.txt".format(x, y, location, result_type), 'r')
+                fd["rw{0}".format(x)]["f{0}".format(y)] = open(r"overall_result3/{2}/{3}/result_web{0}/n-trf-tr{1}.txt".format(x, y, location, result_type), 'r')
             except Exception as e:
                 # print(f"Can not access file: {e}")
                 pass
@@ -160,6 +160,7 @@ for i in range(0,14):
     os.system(f"mkdir {path}{pt_names[i]}")
 
     avg_t_for_pts = []
+    temp = pd.DataFrame(columns=['Time'],  index=[i for i in range(1,1001)])
     for j in range(len(result)):
         copy_ = result[j][i]
         
@@ -179,9 +180,7 @@ for i in range(0,14):
     print(shape(avg_t_for_pts))
     
 
-    # list_ = [[avg_t_for_pts[0], avg_t_for_pts[1], avg_t_for_pts[2], avg_t_for_pts[3], avg_t_for_pts[4], avg_t_for_pts[5], avg_t_for_pts[6], avg_t_for_pts[7], avg_t_for_pts[8], avg_t_for_pts[9], avg_t_for_pts[10], avg_t_for_pts[11]]
     plt.boxplot([avg_t_for_pts[0], avg_t_for_pts[1], avg_t_for_pts[2], avg_t_for_pts[3], avg_t_for_pts[4], avg_t_for_pts[5], avg_t_for_pts[6], avg_t_for_pts[7], avg_t_for_pts[8], avg_t_for_pts[9], avg_t_for_pts[10], avg_t_for_pts[11]])
-    # plt.xticks([i for i in range(len(avg_t_for_pts))], loc_list[0:len(avg_t_for_pts)])
     plt.xticks( [1,2,3,4,5,6,7,8,9,10,11,12], loc_list)
     plt.xlabel(f"PT-{pt_names[i]}")
     plt.ylabel(y_axis_var)
