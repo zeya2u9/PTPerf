@@ -10,8 +10,8 @@ import os
 api_hash = '6b2355ef124a58b86f7a5719dc6f8be1'
 client = TelegramClient('proxy_data_sender', api_id, api_hash)'''
 
-api_id = 8254518
-api_hash = '7365761666f8a08b4468fa5415fd7fc3'
+api_id = <API-ID3>
+api_hash = '<API-HASH3>'
 client = TelegramClient('proxy_data_sender', api_id, api_hash)
 
 #adding flood_sleep_threshold 
@@ -44,11 +44,10 @@ async def main():
     #print('Time: ',time.asctime(time.localtime())[11:20])
     print('len(msg): ',len(str(sys.argv[1])))
     try:
-        await client.send_message('Camoplus01', str(sys.argv[1]))
+        await client.send_message('<username1>', str(sys.argv[1]))
     except errors.FloodWaitError as e:
         print('Have to sleep - C2', e.seconds, 'seconds')
         await asyncio.sleep(e.seconds)
-        #await client.send_message('Camoplus01', str(sys.argv[1]))
         os.system("python3 proxy_data_sender2.py " + sys.argv[1]) #added new j13-22
 
     '''# You can print all the dialogs/conversations that you are part of:
