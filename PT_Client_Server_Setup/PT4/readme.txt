@@ -5,7 +5,7 @@ Stegotorus server setup
 $git clone https://github.com/TheTorProject/stegotorus.git
 $cd stegotorus
 
-1. add dependencies anf build from source
+1. add dependencies and build from source
 $sudo apt-get install build-essential git automake autoconf pkg-config libssl-dev libevent-dev libcurl4-openssl-dev libyaml-cpp-dev zlib1g-dev libboost-dev libboost-system-dev libboost-filesystem-dev
 $autoreconf -i
 $ ./configure [--without-boost]
@@ -24,7 +24,7 @@ Stegotorus client setup
 $git clone https://github.com/TheTorProject/stegotorus.git
 $cd stegotorus
 
-1. add dependencies anf build from source
+1. add dependencies and build from source
 $sudo apt-get install build-essential git automake autoconf pkg-config libssl-dev libevent-dev libcurl4-openssl-dev libyaml-cpp-dev zlib1g-dev libboost-dev libboost-system-dev libboost-filesystem-dev
 $autoreconf -i
 $ ./configure [--without-boost]
