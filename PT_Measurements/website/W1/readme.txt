@@ -43,8 +43,8 @@ There are two folders -
 2. Raw_Data_Processing: it contains scripts which will process the raw data obtained from step-1
    - To apply processing scripts over the raw data strictly follow above folder and file structure 
    	-  run w-website.py file to generate csv files for each PT
-	$python3 w-website.py  //select proper options to proceed
+	$python3 w-website.py  //select proper options on prompt to proceed
 
    - To make graphs out of the processed data, put tranco results in tranco-1000 folder and blocked results in blocked-1000 folder
 	- run plotw1.py  
-
+	$python3 plotw1.py  //it will the box-plots for all PTs

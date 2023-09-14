@@ -153,7 +153,7 @@ print(len(result[0][1]))
 temp = pd.DataFrame(columns=['Time'],  index=[i for i in range(1,1001)])
 # temp.columns = [str(i) for i in range(500)]
 
-path = '/home/nsl300/Documents/1_Final_results/W-Website/W1/'
+path = 'W-Website/W1/'
 for i in range(0,14):
     
     #create a folder for this PT
