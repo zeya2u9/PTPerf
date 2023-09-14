@@ -4,11 +4,8 @@ from matplotlib import pyplot as plt
 import json
 from math import nan, isnan
 
-base_dir = '/home/nsl300/Documents/1_Final_results/W-Website/w11'
+base_dir = 'w11'
 individual_dir = ['CSVs']
-# labels = ['Tor', 'obfs4', 'Marionette', 'Shadowsocks', 'Stegotaurus', 'Cloak', 'Snowflake', 'Meek', 'Camoufler', 'dnstt', \
-#     'Psiphon', 'Conjure', 'Webtunnel']
-# proxy_based = ['Meek', 'Snowflake', 'Conjure', 'Massbrowser', 'Psiphon']
 proxy_based = ['Meek',  'Psiphon', 'Conjure', 'Snowflake']
 tunelling_based = ['Dnstt',  'WebTunnel']
 mimicry = ['Marionette', 'Stegotorus', 'Cloak']
@@ -43,12 +40,6 @@ for item in fully_encrypted:
     new_data[item] = data[item]
 new_data['Tor-only'] = data['Tor-only']
 
-# new_data['Snowflake'] = data['Snowflake']
-# new_data['Snowflake-100'] = data['Snowflake'][90:100]
-# for i in range(101,911,100):
-#     #110,201:210,301:310,401:410,501:510,601:610,701:710,801:810,901:910):
-#     #print(data['Snowflake'][i:i+10])
-#     new_data['Snowflake-100'].extend(data['Snowflake'][i+90:i+100])
 
 #labels, values = data.keys(), data.values()
 labels, values = new_data.keys(), new_data.values()
@@ -68,9 +59,6 @@ box_plot = plt.boxplot(values, patch_artist=True, flierprops=flierprops, medianp
     boxprops = boxprops, whiskerprops = whiskerprops, capprops = capprops) #, showfliers=False)
 plt.xticks(range(1, len(labels) + 1), labels, rotation = 30, fontsize=13, weight = 'bold')
 plt.yticks(weight = 'bold', fontsize=13)
-# for median in box_plot['medians']:
-#     median.set_color('black')
-#     median.set_width('2')
 print(box_plot['boxes'])
 count = 0
 for patch in box_plot['boxes']:
@@ -94,10 +82,6 @@ for medline in box_plot['medians']:
     median = linedata[0]
     print(median)
 
-
-# plt.yscale('log')
-#plt.xlabel('PTs')
-#plt.tick_params(axis='y', which='minor')
 plt.grid(axis = 'y', color = 'grey', linestyle = '--', linewidth = 1)
 plt.ylabel('Speed Index (s)', fontsize='x-large', fontweight='bold')
 plt.legend([box_plot["boxes"][0], box_plot["boxes"][4], box_plot["boxes"][6], box_plot["boxes"][9]], \
