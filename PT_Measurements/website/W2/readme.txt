@@ -5,7 +5,10 @@ All measurements will be taken using selenium browser.
 
 Selenium browser automation setup details
 -----------------------------------------
-- refer to Raw_Data_Collection/Selenium_Setup for instructions on how to get selenium working so that each PT gets its requests served via selenium 
+   - copy sel_setup.sh file and selenium_testing folder to your machine and run it
+   $./sel_setup.sh
+
+   It will automatically setup selenium on your machine. 
 
 
 Raw_Data_Collection
