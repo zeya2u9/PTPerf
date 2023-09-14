@@ -7,7 +7,7 @@ python3 mod_client_listener2.py &
 echo '1-2-------'
 sleep 7
 
-
+sshpass -p <server-pass> ssh root@<server-ip> "tor -f /etc/tor/torrc-basic "&
 sshpass -p <server-pass> ssh root@<server-ip> " python3  ~/file_download_tg_socks-main/server_int.py"&
 echo '4-server started'
 sleep 1

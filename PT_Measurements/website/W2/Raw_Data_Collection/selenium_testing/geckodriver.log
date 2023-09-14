@@ -1,0 +1,581 @@
+1661458075403	geckodriver	INFO	Listening on 127.0.0.1:50353
+1661458075415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50655" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUsIJ2A"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661458077647	Marionette	INFO	Marionette enabled
+1661458077650	Marionette	INFO	Listening on port 44915
+WebDriver BiDi listening on ws://localhost:50655
+Read port: 44915
+1661458078708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUsIJ2A/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50655/devtools/browser/665ba7ee-c24e-4120-831f-967808a3d2b5
+[2022-08-25T20:08:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:08:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:08:06Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:08:06Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661458086784	Marionette	INFO	Stopped listening on port 44915
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1661460543215	geckodriver	INFO	Listening on 127.0.0.1:44225
+1661460543227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexGepzY"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661460545430	Marionette	INFO	Marionette enabled
+1661460545433	Marionette	INFO	Listening on port 38131
+WebDriver BiDi listening on ws://localhost:38107
+Read port: 38131
+1661460546085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexGepzY/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38107/devtools/browser/0077f261-d593-41b6-a29b-c18260214015
+[2022-08-25T20:49:13Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:49:13Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:49:13Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:49:13Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661460555018	Marionette	INFO	Stopped listening on port 38131
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661460848335	geckodriver	INFO	Listening on 127.0.0.1:45651
+1661460848342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile66XUid"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661460850557	Marionette	INFO	Marionette enabled
+1661460850560	Marionette	INFO	Listening on port 33607
+WebDriver BiDi listening on ws://localhost:37391
+Read port: 33607
+1661460851231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile66XUid/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:37391/devtools/browser/cf189668-1b5e-491f-9d7d-35b4b963a98e
+[2022-08-25T20:54:17Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:54:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:54:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:54:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661460858277	Marionette	INFO	Stopped listening on port 33607
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661460917419	geckodriver	INFO	Listening on 127.0.0.1:38159
+1661460917432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegXz5KQ"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661460919877	Marionette	INFO	Marionette enabled
+1661460919880	Marionette	INFO	Listening on port 36657
+WebDriver BiDi listening on ws://localhost:36223
+Read port: 36657
+1661460920537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegXz5KQ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36223/devtools/browser/af17ae12-7864-465d-8000-0bc3b7b633a4
+[2022-08-25T20:55:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661460930989	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-08-25T20:55:31Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:55:31Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:55:31Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661460932233	Marionette	INFO	Stopped listening on port 36657
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661460966886	geckodriver	INFO	Listening on 127.0.0.1:35153
+1661460966898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56577" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegReNhU"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661460969094	Marionette	INFO	Marionette enabled
+1661460969097	Marionette	INFO	Listening on port 41449
+WebDriver BiDi listening on ws://localhost:56577
+Read port: 41449
+1661460969632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegReNhU/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56577/devtools/browser/0071747c-f6c8-4356-81b4-9564d88ca579
+[2022-08-25T20:56:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:56:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:56:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:56:16Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661460977712	Marionette	INFO	Stopped listening on port 41449
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661461088428	geckodriver	INFO	Listening on 127.0.0.1:57243
+1661461088438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYRRw6B"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661461090663	Marionette	INFO	Marionette enabled
+1661461090666	Marionette	INFO	Listening on port 35979
+WebDriver BiDi listening on ws://localhost:52747
+Read port: 35979
+1661461091341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYRRw6B/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52747/devtools/browser/49abe11e-2d41-42dd-be53-72ebc7206e7c
+[2022-08-25T20:58:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:58:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:58:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:58:18Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661461099417	Marionette	INFO	Stopped listening on port 35979
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661461139784	geckodriver	INFO	Listening on 127.0.0.1:41381
+1661461139797	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56607" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXwPf7S"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661461141888	Marionette	INFO	Marionette enabled
+1661461141891	Marionette	INFO	Listening on port 33881
+WebDriver BiDi listening on ws://localhost:56607
+Read port: 33881
+1661461142391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXwPf7S/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56607/devtools/browser/f08ed473-591f-42e4-942f-4433e82c60ab
+[2022-08-25T20:59:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:59:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:59:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-25T20:59:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661461150575	Marionette	INFO	Stopped listening on port 33881
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1661794554799	geckodriver	INFO	Listening on 127.0.0.1:41481
+1661794554811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyLG9SZ"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661794556756	Marionette	INFO	Marionette enabled
+1661794556759	Marionette	INFO	Listening on port 45055
+WebDriver BiDi listening on ws://localhost:50445
+Read port: 45055
+1661794557845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyLG9SZ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50445/devtools/browser/ac05c906-4d5b-493e-ada2-b10c6913a868
+1661794567219	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:36:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:09Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:36:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661794573750	Marionette	INFO	Stopped listening on port 45055
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661794654737	geckodriver	INFO	Listening on 127.0.0.1:44441
+1661794654749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilew4tw4y"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661794656683	Marionette	INFO	Marionette enabled
+1661794656686	Marionette	INFO	Listening on port 34253
+WebDriver BiDi listening on ws://localhost:40217
+Read port: 34253
+1661794657303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilew4tw4y/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40217/devtools/browser/d2189881-d2d1-42f7-b956-157523305b33
+1661794666627	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:37:49Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661794672223	Marionette	INFO	Stopped listening on port 34253
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661794748027	geckodriver	INFO	Listening on 127.0.0.1:41547
+1661794748039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileteJzy8"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661794750004	Marionette	INFO	Marionette enabled
+1661794750007	Marionette	INFO	Listening on port 40087
+WebDriver BiDi listening on ws://localhost:48469
+Read port: 40087
+1661794750554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileteJzy8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48469/devtools/browser/13671375-9fcb-4767-89c5-b7e033078174
+1661794760707	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:39:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:25Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:39:25Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661794766757	Marionette	INFO	Stopped listening on port 40087
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661794836301	geckodriver	INFO	Listening on 127.0.0.1:44665
+1661794836313	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevZ5am1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661794838459	Marionette	INFO	Marionette enabled
+1661794838462	Marionette	INFO	Listening on port 33489
+WebDriver BiDi listening on ws://localhost:43213
+Read port: 33489
+1661794839097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevZ5am1/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43213/devtools/browser/78a539ac-01ee-4dd8-a203-d01cb3135fe5
+1661794849479	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:40:51Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661794854388	Marionette	INFO	Stopped listening on port 33489
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661794873255	geckodriver	INFO	Listening on 127.0.0.1:53525
+1661794873268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile49xQEL"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661794875442	Marionette	INFO	Marionette enabled
+1661794875445	Marionette	INFO	Listening on port 43295
+WebDriver BiDi listening on ws://localhost:45877
+Read port: 43295
+1661794876011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile49xQEL/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45877/devtools/browser/acbd6d18-62c7-42f8-8f96-58e7baf115fb
+1661794885632	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:41:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:28Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:28Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:28Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:28Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:28Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:41:28Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661794891853	Marionette	INFO	Stopped listening on port 43295
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661794944720	geckodriver	INFO	Listening on 127.0.0.1:37461
+1661794944732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHBfAs8"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661794946887	Marionette	INFO	Marionette enabled
+1661794946890	Marionette	INFO	Listening on port 44653
+WebDriver BiDi listening on ws://localhost:41275
+Read port: 44653
+1661794947534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHBfAs8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41275/devtools/browser/300efd7e-8108-432c-aa9d-c26d3e0e5235
+1661794957384	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:42:39Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1661794963895	Marionette	INFO	Stopped listening on port 44653
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+!!! error running onStopped callback: TypeError: callback is not a function
+1661795282065	geckodriver	INFO	Listening on 127.0.0.1:49691
+1661795282077	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepf9ZAC"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661795284020	Marionette	INFO	Marionette enabled
+1661795284023	Marionette	INFO	Listening on port 45179
+WebDriver BiDi listening on ws://localhost:58667
+Read port: 45179
+1661795284632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepf9ZAC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58667/devtools/browser/1ded6063-fe0f-48b2-8e43-db6c2d3be0b2
+1661795293198	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-29T17:48:22Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:48:22Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:48:22Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-08-29T17:48:22Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b94bae00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b94bae00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b94bb700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b94bb700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b94bab00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b94bab00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b9d2ad00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 264599, MediaDecoderStateMachine #1] WARNING: Decoder=7f17b9d2ad00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-cvs9kB/firefox-104.0+build3/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661795302875	Marionette	INFO	Stopped listening on port 45179
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661795409381	geckodriver	INFO	Listening on 127.0.0.1:36405
+1661795409392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilek9LcSl"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661795411804	Marionette	INFO	Marionette enabled
+1661795411807	Marionette	INFO	Listening on port 45977
+WebDriver BiDi listening on ws://localhost:33171
+Read port: 45977
+1661795412472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek9LcSl/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:33171/devtools/browser/e5ca885e-365e-4e0b-9a81-ed677abdcb99
+1661795425210	Marionette	INFO	Stopped listening on port 45977
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661795886131	geckodriver	INFO	Listening on 127.0.0.1:44259
+1661795886143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileba6wbz"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661795888068	Marionette	INFO	Marionette enabled
+1661795888071	Marionette	INFO	Listening on port 35133
+WebDriver BiDi listening on ws://localhost:36825
+Read port: 35133
+1661795888594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileba6wbz/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36825/devtools/browser/8d44ac64-c651-4fc3-a883-aa1aa4b9e51b
+1661795903173	Marionette	INFO	Stopped listening on port 35133
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662141015195	geckodriver	INFO	Listening on 127.0.0.1:35735
+1662141015197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePIeCv7"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662141017465	Marionette	INFO	Marionette enabled
+1662141017468	Marionette	INFO	Listening on port 45577
+WebDriver BiDi listening on ws://localhost:47459
+Read port: 45577
+1662141017998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePIeCv7/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47459/devtools/browser/a82c9166-ce07-4167-8cad-ab0dcf6a44a1
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662141030841	Marionette	INFO	Stopped listening on port 45577
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1662141047613	geckodriver	INFO	Listening on 127.0.0.1:55321
+1662141047616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45177" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqGSbhW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662141049516	Marionette	INFO	Marionette enabled
+1662141049519	Marionette	INFO	Listening on port 45569
+WebDriver BiDi listening on ws://localhost:45177
+Read port: 45569
+1662141050126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqGSbhW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45177/devtools/browser/f185ac6f-1a1e-4417-96f2-3e26da665f95
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1662141056882	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662141086604	Marionette	INFO	Stopped listening on port 45569
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1662141379102	geckodriver	INFO	Listening on 127.0.0.1:48035
+1662141379105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39623" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerH1Ym9"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662141380857	Marionette	INFO	Marionette enabled
+1662141380860	Marionette	INFO	Listening on port 35705
+WebDriver BiDi listening on ws://localhost:39623
+Read port: 35705
+1662141381498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerH1Ym9/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39623/devtools/browser/8693b927-9372-44c0-8ee6-aa56d5ecb99d
+1662141386780	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662141390328	Marionette	INFO	Stopped listening on port 35705
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1662141600658	geckodriver	INFO	Listening on 127.0.0.1:55923
+1662141600660	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--proxy-server=socks5://127.0.0.1:9050" "--remote-debugging-port" "56301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileohADe8"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662141602642	Marionette	INFO	Marionette enabled
+1662141602645	Marionette	INFO	Listening on port 33649
+WebDriver BiDi listening on ws://localhost:56301
+Read port: 33649
+1662141603208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileohADe8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56301/devtools/browser/92436066-17c3-43ad-9bdc-2cee03591d54
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1662141609558	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1662141745193	geckodriver	INFO	Listening on 127.0.0.1:42759
+1662141745195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--proxy-server=socks5://127.0.0.1:9050" "--remote-debugging-port" "49683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ20zan"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662141747475	Marionette	INFO	Marionette enabled
+1662141747478	Marionette	INFO	Listening on port 41261
+WebDriver BiDi listening on ws://localhost:49683
+Read port: 41261
+1662141748130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ20zan/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49683/devtools/browser/aaa55b07-85a9-4dbb-847d-00582e68e457
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662141765228	Marionette	INFO	Stopped listening on port 41261
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1662141786893	geckodriver	INFO	Listening on 127.0.0.1:45997
+1662141786895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--proxy-server=socks5://127.0.0.1:9050" "--remote-debugging-port" "54135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile29wUXP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662141788961	Marionette	INFO	Marionette enabled
+1662141788964	Marionette	INFO	Listening on port 38153
+WebDriver BiDi listening on ws://localhost:54135
+Read port: 38153
+1662141789503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile29wUXP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54135/devtools/browser/1f37d208-b639-4d19-a5cb-d5777b3e036e
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1662141794692	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662141795387	Marionette	INFO	Stopped listening on port 38153
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662151316619	Marionette	INFO	Stopped listening on port 33649
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

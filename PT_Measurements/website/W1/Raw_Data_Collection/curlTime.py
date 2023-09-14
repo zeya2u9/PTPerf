@@ -46,7 +46,7 @@ paths_7 = ''  #server-side
 pathc_7 = 'cd /root/meek/meek-client/; tor -f /etc/tor/meek_torrc &' #client-side
 
 #Camoufler - 8
-paths_8 = 'cd /root/debug/file_download_tg_socks-main/; ./web_camo.sh'
+paths_8 = 'cd /root/file_download_tg_socks-main/; ./start_camo.sh'
 pathc_8 = 'echo Done'
 
 #Dnstt - 9
