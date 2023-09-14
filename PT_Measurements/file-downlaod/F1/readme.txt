@@ -4,7 +4,7 @@ File-download based experiments
 There are two folders -
 1. Raw_Data_Collection:
    - It contains scripts to start the measurement process for each PT. We have followed a common nomenclature for file names and folder names for storing the measurement results.
-   - File-name format: n-trf-tr<pt-number>.txt; for example n-trf-tr0.txt represents results for Tor-only.
+   - File-name format: new_pt<pt-number>.txt; for example new_pt0.txt represents results for Tor-only.
    - Folder structure: Throughout the measurement at one location we repeat each website download five times, thsu there are five folders.
         <[server_location]-[client_location]>
 		file-download
