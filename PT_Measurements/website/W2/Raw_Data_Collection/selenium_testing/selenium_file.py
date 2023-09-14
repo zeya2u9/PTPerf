@@ -35,20 +35,20 @@ paths_1 = ''
 pathc_1 = 'tor -f /etc/tor/self_obfs4_torrc &'
 
 #marionette - 2
-paths_2 = "sshpass -p pT@123pt ssh root@134.122.113.191 './pTesting/marionette/start2.sh'"
+paths_2 = "sshpass -p <server-pass> ssh root@<server-ip> './marionette/start2.sh'"
 pathc_2 = './pt_mar.sh'
 
 #shadowsocks - 3
-paths_3 = "sshpass -p pT@123pt ssh root@  '/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json &'"
+paths_3 = "sshpass -p <server-pass> ssh root@<server-ip> '/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json &'"
 pathc_3 = '/usr/bin/ss-local -c /etc/shadowsocks-libev/config.json &'
 
 #stegotorus - 4
-paths_4 = "sshpass -p pT@123pt ssh root@ './pTesting/stegotorus/startn.sh'"
-pathc_4 = f'cd {os.getenv("HOME")}/pTesting/stegotorus/; ./stegotorus --log-min-severity=debug --timestamp-logs chop client --passphrase "correct passphrase" --trace-packets --disable-retransmit 127.0.0.1:5001 nosteg_rr :5000 &'
+paths_4 = "sshpass -p <server-pass> ssh root@<server-ip> './stegotorus/startn.sh'"
+pathc_4 = f'cd {os.getenv("HOME")}/pTesting/stegotorus/; ./stegotorus --log-min-severity=debug --timestamp-logs chop client --passphrase "correct passphrase" --trace-packets --disable-retransmit 127.0.0.1:5001 nosteg_rr <server-ip>:5000 &'
 
 #Cloak - 5
-paths_5 = "sshpass -p pT@123pt ssh root@ 'cd /root/pTesting/Cloak/ && { tor -f /etc/tor/torrc-basic & build/ck-server -c ckserver.json; } &'"
-pathc_5 = f"cd {os.getenv('HOME')}/pTesting/Cloak/ && build/ck-client -c ckclient.json -s  &"
+paths_5 = "sshpass -p <server-pass> ssh root@<server-ip> 'cd /root/Cloak/ && { tor -f /etc/tor/torrc-basic & build/ck-server -c ckserver.json; } &'"
+pathc_5 = f"cd {os.getenv('HOME')}/Cloak/ && build/ck-client -c ckclient.json -s <server-ip> &"
 
 #Snowflake - 6
 paths_6 = ''
@@ -56,10 +56,10 @@ pathc_6 = 'tor -f /etc/tor/snowflake_client_torrc_mod &'
 
 #Meek - 7
 paths_7 = ''  #server-side
-pathc_7 = 'cd /root/pTesting/meek/meek-client/; tor -f /etc/tor/meek_torrc &' #client-side
+pathc_7 = 'cd /root/meek/meek-client/; tor -f /etc/tor/meek_torrc &' #client-side
 
 #Camoufler - 8
-paths_8 = 'cd /root/debug/file_download_tg_socks-main/; ./web_camo.sh'
+paths_8 = 'cd /root/file_download_tg_socks-main/; ./start_camo.sh'
 pathc_8 = 'echo Done'
 
 #Dnstt - 9
@@ -76,11 +76,11 @@ pathc_11 = './start_11.sh'
 
 #Conjure - 12
 paths_12 = ''
-pathc_12 = 'cd /root/pTesting/conjure/client/; tor -f torrc &'
+pathc_12 = 'cd /root/conjure/client/; tor -f torrc &'
 
 #Webtunnel - 13
-paths_13 = "sshpass -p pT@123pt ssh root@  'systemctl restart webTunnel.service &'"
-pathc_13 = 'cd /root/pTesting/webtunnel/main/client/; tor -f /etc/tor/torrc-webtunnel &'
+paths_13 = "sshpass -p <server-pass> ssh root@<server-ip> 'systemctl restart webTunnel.service &'"
+pathc_13 = 'cd /root/webtunnel/main/client/; tor -f /etc/tor/torrc-webtunnel &'
 
 
 startups = {
@@ -119,7 +119,7 @@ pt_names = {
 }
 
 pt_protocol = ['socks5', 'socks5', 'socks5', 'socks5', 'socks4', 'socks5', 'socks5', 'socks5', 'socks5', 'socks5', 'socks5h', 'socks5', 'socks5', 'socks5']
-pt_ports = ['9050', '9050', '8079', '1080', '5001', '1984', '9050', '9050', '9011', '9050', '9050', '9050', '9050', '9050']
+pt_ports = ['9050', '9050', '8079', '9050', '5001', '1984', '9050', '9050', '9011', '9050', '9050', '9050', '9050', '9050']
 
 ##################################################################################################
 
@@ -156,7 +156,7 @@ def testWebsite(website, iteration, pt_num, browser):
 	try:
 		browser.get(website)
 		if website in ['https://147.182.134.83/50MB.zip', 'https://147.182.134.83/100MB.zip']:
-			time.sleep(1200)
+			time.sleep(1800)
 		else:
 			time.sleep(600)
 	except Exception as e:
@@ -209,7 +209,7 @@ def initialiseSeleniumForPT(pt_num):
 
 
 def cleanupPT(pt_num, browser):
-	os.system(f"{os.getenv('HOME')}/autoScript/kill_{pt_num}.sh")
+	os.system(f"{os.getenv('HOME')}/kill_{pt_num}.sh")
 	browser.quit()
 
 
@@ -223,20 +223,20 @@ if __name__ == "__main__":
 	if len(sys.argv) < 2:
 		print('run this script in the following format:')
 		print('python3 selenium_curl.py <type of experiment>')
-		print('types: tranco-500, blocked-200')
+		print('types: tranco, blocked')
 		quit()
 	else:
 		mode = sys.argv[1]
 
-	data20 = pd.read_csv(os.getenv('HOME') + '/autoScript/websiteList/tranco/tranco_bas_krdo.csv')
+	data20 = pd.read_csv(os.getenv('HOME') + 'websiteList/tranco_bas_krdo.csv')
 	#website_tr20 = data20.iloc[0:1000,0]
 	#changeing website_tr20 to file urls
 	website_tr20 = ['https://147.182.134.83/5MB.zip', 'https://147.182.134.83/10MB.zip', 'https://147.182.134.83/20MB.zip', 'https://147.182.134.83/50MB.zip', 'https://147.182.134.83/100MB.zip']
 	
-	data3 = pd.read_csv(os.getenv('HOME') + '/autoScript/websiteList/url-lists/1000-websites.csv')
+	data3 = pd.read_csv(os.getenv('HOME') + 'websiteList/1000-websites.csv')
 	website_url = data3.iloc[0:10,0]
 
-	websites = website_tr20 if mode == 'tranco-500' else website_url
+	websites = website_tr20 if mode == 'tranco' else website_url
 
 	os.system(f'mkdir {mode}')
 
@@ -248,7 +248,7 @@ if __name__ == "__main__":
 		print(f"############  ITERATIION {iteration}  ############")
 		os.system(f"mkdir result_web{iteration+1}")
 
-		for pt_num in [2]:
+		for pt_num in [0,1,2,3,4,5,6,7,9,11,12,13]:
 			print(f"\n\n{pt_names[pt_num]}\n\n")
 			print('Initiating browser...\n\n')
 			try:
@@ -307,7 +307,7 @@ browser = webdriver.Firefox(firefox_profile=profile)
 
 # install extension
 '''
-browser.install_addon("/home/nsl400/.mozilla/firefox/y9sdrczm.default-release/extensions/uBlock0@raymondhill.net.xpi", temporary=True)
+browser.install_addon("~/.mozilla/firefox/y9sdrczm.default-release/extensions/uBlock0@raymondhill.net.xpi", temporary=True)
 '''
 
 # headless firefox

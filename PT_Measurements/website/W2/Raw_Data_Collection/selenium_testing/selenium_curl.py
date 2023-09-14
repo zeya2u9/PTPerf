@@ -212,7 +212,7 @@ if __name__ == "__main__":
 		print(f"############  ITERATIION {iteration}  ############")
 		os.system(f"mkdir result_web{iteration+1}")
 
-		for pt_num in [11]:
+		for pt_num in [0,1,2,3,4,5,6,7,9,11,12,13]:
 			print(f"\n\n{pt_names[pt_num]}\n\n")
 			print('Initiating browser...\n\n')
 			try:
