@@ -149,21 +149,20 @@ paths_1 = ''
 pathc_1 = 'tor -f /etc/tor/obfs4_torrc &'
 
 #marionette - 2
-paths_2 = "sshpass -p pT@123pt ssh root@139.59.17.150 './pTesting/marionette/start2.sh'"
+paths_2 = "sshpass -p <server-pass> ssh root@<server-ip> './marionette/start2.sh'"
 pathc_2 = './pt_mar.sh'
 
 #shadowsocks - 3
-paths_3 = "sshpass -p pT@123pt ssh root@139.59.17.150  '/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json &'"
-#pathc_3 = 'tor -f /etc/tor/torrc-shadow & /usr/bin/ss-local -c /etc/shadowsocks-libev/config.json &'
+paths_3 = "sshpass -p <server-pass> ssh root@<server-ip>  '/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json &'"
 pathc_3 = './start_3.sh'
 
 #stegotorus - 4
-paths_4 = "sshpass -p pT@123pt ssh root@139.59.17.150 './pTesting/stegotorus/startn.sh'"
-pathc_4 = f'cd {os.getenv("HOME")}/pTesting/stegotorus/; ./stegotorus --log-min-severity=debug --timestamp-logs chop client --passphrase "correct passphrase" --trace-packets --disable-retransmit 127.0.0.1:5001 nosteg_rr 139.59.17.150:5000 &'
+paths_4 = "sshpass -p <server-pass> ssh root@<server-ip> './stegotorus/startn.sh'"
+pathc_4 = f'cd {os.getenv("HOME")}/stegotorus/; ./stegotorus --log-min-severity=debug --timestamp-logs chop client --passphrase "correct passphrase" --trace-packets --disable-retransmit 12>
 
 #Cloak - 5
-paths_5 = "sshpass -p pT@123pt ssh root@139.59.17.150 'cd /root/pTesting/Cloak/ && { tor -f /etc/tor/torrc-basic & build/ck-server -c ckserver.json; } &'"
-pathc_5 = f"cd {os.getenv('HOME')}/pTesting/Cloak/ && build/ck-client -c ckclient.json -s 139.59.17.150 &"
+paths_5 = "sshpass -p <server-pass> ssh root@<server-ip> 'cd /root/pTesting/Cloak/ && { tor -f /etc/tor/torrc-basic & build/ck-server -c ckserver.json; } &'"
+pathc_5 = f"cd {os.getenv('HOME')}/Cloak/ && build/ck-client -c ckclient.json -s <server-ip> &"
 
 #Snowflake - 6
 paths_6 = ''
@@ -171,10 +170,10 @@ pathc_6 = 'tor -f /etc/tor/snowflake_client_torrc_mod &'
 
 #Meek - 7
 paths_7 = ''  #server-side
-pathc_7 = 'cd /root/pTesting/meek/meek-client/; tor -f /etc/tor/meek_torrc &' #client-side
+pathc_7 = 'cd /root/meek/meek-client/; tor -f /etc/tor/meek_torrc &' #client-side
 
 #Camoufler - 8
-paths_8 = 'cd /root/debug/file_download_tg_socks-main/; ./web_camo.sh'
+paths_8 = 'cd /root/file_download_tg_socks-main/; ./start_camo.sh'
 pathc_8 = 'echo Done'
 
 #Dnstt - 9
@@ -191,11 +190,11 @@ pathc_11 = './start_11.sh'
 
 #Conjure - 12
 paths_12 = ''
-pathc_12 = 'cd /root/pTesting/conjure/client/; tor -f torrc &'
+pathc_12 = 'cd /root/conjure/client/; tor -f torrc &'
 
 #Webtunnel - 13
-paths_13 = "sshpass -p pT@123pt ssh root@139.59.17.150  'systemctl restart nginx.service; systemctl restart webTunnel.service '"
-pathc_13 = 'cd /root/pTesting/webtunnel/main/client/; tor -f /etc/tor/torrc-webtunnel2 &'
+paths_13 = "sshpass -p <server-pass> ssh root@<server-ip>  'systemctl restart nginx.service; systemctl restart webTunnel.service '"
+pathc_13 = 'cd /root/webtunnel/main/client/; tor -f /etc/tor/torrc-webtunnel2 &'
 
 
 startups = {
