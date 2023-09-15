@@ -19,7 +19,3 @@ File-download related
 F1 : file download using curl  
 F2 : file download using selenium  
 
-Medium Change related
----------------------
-M1 : Ethernet VS WiFi  
-
