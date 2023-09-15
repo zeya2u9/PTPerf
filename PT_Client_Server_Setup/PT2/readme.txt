@@ -8,7 +8,7 @@ $ cd marionette
 1. setup a virtual environment for python 2.7 and activate it
 $sudo apt install python2 virtualenv
 $virtualenv -p python2.7 mario
-$source mario2/bin/activate
+$source mario/bin/activate
 
 2. add dependencies and build marionette
 $sudo apt-get install git libgmp-dev python-dev curl
@@ -44,7 +44,7 @@ $ cd marionette
 1. setup a virtual environment for python 2.7 and activate it
 $sudo apt install python2 virtualenv
 $virtualenv -p python2.7 mario
-$source mario2/bin/activate
+$source mario/bin/activate
 
 2. add dependencies and build marionette
 $sudo apt-get install git libgmp-dev python-dev curl
