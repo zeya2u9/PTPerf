@@ -2,7 +2,7 @@ This folder contains scripts to start the measurements of following types:
 --------------------------------------------------------------------------
 - Website related
 - File download related
-- Medium Change related
+
 
 Website related
 ---------------
