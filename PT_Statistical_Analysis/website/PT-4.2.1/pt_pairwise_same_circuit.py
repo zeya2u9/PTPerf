@@ -11,7 +11,7 @@ import numpy as np
 
 import pandas as pd
 
-base_dir =  input("Enter absolute path to 4.2.1(3a)-based experiments time between category pair")
+base_dir = 'statistical_test/csvs/pairwise-same_circuit_fig3a'
 
 data = {}
 os.chdir(base_dir)
@@ -37,7 +37,7 @@ for pt in pt_pairs:
     a = [k for k in pt_data.iloc[:,0]]
     b = [k for k in pt_data.iloc[:,1]]
 
-    index_v = f"{pt[:-4]}"
+    index_v = f"{pt[:-4]}"  #for curl & selenium
    
     print(index_v)
     
@@ -70,5 +70,4 @@ for pt in pt_pairs:
     # exit(0)
 print(count)
 
-path = input("Enter absolute path to save test-results")
-data.to_csv(f"{path}/fig_3a.csv", index=False)
+data.to_csv(f"statistical_test/fig_3a.csv", index=False)
