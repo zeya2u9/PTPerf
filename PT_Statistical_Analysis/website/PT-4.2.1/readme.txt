@@ -1,7 +1,6 @@
-At this point, we have csv files for this experiment has been generated. 
+At this point, we have csv files for this experiment. There are scripts in _PTPerf/PT_Measurements/website/W3_ which help in generating these CSV files. 
 
-- copy scripts to your folder
-
+- copy scripts from this directory to your machine
 - Apply statitical tests
 
 Generate statistical results for Pairwise PTs
