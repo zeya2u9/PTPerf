@@ -1,5 +1,9 @@
 PT categories:
-
+"proxy-layer" : [6,7,11,12], 
+"tunneling" : [8,9,13], 
+"mimicry" : [2,4,5], 
+"fully-encrypted" : [1,3], 
+"tor" : [0]
 
 
 At this point, raw data files for each type of experiment (Curl, Selenium, File-download and Speed-Index) have been generated. We will use those raw files to generate CSVs for applying statistical tests between pairs of PTs and their categories.

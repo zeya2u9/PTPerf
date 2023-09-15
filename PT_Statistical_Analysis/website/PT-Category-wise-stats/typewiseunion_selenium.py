@@ -5,20 +5,6 @@ import copy
 import os
 
 #TODO
-'''
-choose one location
-combine sites of both tranco and blocked in 1 dictionary with strcuture:
-{"webite" : [results..., be it 2-3-4-5 whatever]}
-
-this is for each PT separately
-now you preen the dictionary for websites with <3 results
-take the average of all the remaining results and store in this format:
-{"website" : average result}
-(may need to combine all types of results like TTFB, total_time etc)
-store this dictionary in one csv and save
-
-stop here for now
-''' 
 
 # loc_list = [  'fra-blr', 'fra-lon','fra-tor','nyc-blr','nyc-lon','nyc-tor','sgp-blr','sgp-lon','sgp-tor', 'Tor-only-blr2', 'Tor-only-lon2', 'Tor-only-tor2' ]
 # print(loc_list)
@@ -31,10 +17,10 @@ y_axis_var = "Total_Time"
 pt_names = [  'Tor-only', 'Obfs4', 'Marionete', 'Shadowsocks', 'Stegotorus', 'Cloak', 'Snowflake', 'Meek','Camoufler', 'Dnstt', 'Massbrowser', 'Psiphon', 'Conjure', 'WebTunnel']
 
 
-blocked_list = open("/home/nsl400/autoScript/websiteList/url-lists/1000-websites.csv", 'r').read().split('\n')[:-1]
+blocked_list = open("websiteList/1000-websites.csv", 'r').read().split('\n')[:-1]
 blocked_list = [x[:-1] for x in blocked_list]
 
-tranco_list = open("/home/nsl400/autoScript/websiteList/tranco/tranco_bas_krdo.csv", 'r').read().split('\n')[1:1001]
+tranco_list = open("websiteList/tranco_bas_krdo.csv", 'r').read().split('\n')[1:1001]
 tranco_list = [x[:-1] for x in tranco_list]
 
 all_websites = tranco_list
@@ -52,11 +38,10 @@ for pt in range(14):
 		db[pt][website] = []
 
 	#calculate num of lines in a file and store in count
-	# for result_type in ["tranco-500"]:
 	# for result_type in ["web_all", "blocked-all"]:
 	for result_type in ["web_all"]:
 		try:
-			with open(r"/home/nsl400/pt-results/selenium_results/selenium_overall_result1000/{0}/result_web1/n-trf-tr{1}.txt".format(result_type, pt), 'r') as fp:
+			with open(r"pt-results/selenium_results/selenium_overall_result1000/{0}/result_web1/n-trf-tr{1}.txt".format(result_type, pt), 'r') as fp:
 				for count, line in enumerate(fp):
 					pass
 		except Exception as e:
@@ -68,7 +53,7 @@ for pt in range(14):
 		# psiphon_ke_nakhre = 6 if (pt != 11 and result_type != "blocked-all") else 5
 		for it in range(1,6):
 			try:
-				fd["rw{0}".format(it)] = open(r"/home/nsl400/pt-results/selenium_results/selenium_overall_result1000/{2}/result_web{0}/n-trf-tr{1}.txt".format(it, pt,  result_type), 'r')
+				fd["rw{0}".format(it)] = open(r"pt-results/selenium_results/selenium_overall_result1000/{2}/result_web{0}/n-trf-tr{1}.txt".format(it, pt,  result_type), 'r')
 			except Exception as e:
 				print(f"Can not access file: {e}")
 				exit()
@@ -149,7 +134,7 @@ for pt_t in union_db:
 
 
 #now we have the final intersection list
-os.system(f'mkdir -p /home/nsl400/pt-results/csvs/selenium-pairwise-by-pt-types/')
+os.system(f'mkdir -p pt-results/csvs/selenium-pairwise-by-pt-types/')
 
 for pt_t1 in union_db:
 	for pt_t2 in union_db:
@@ -164,7 +149,7 @@ for pt_t1 in union_db:
 			if master_weblist.count(website) == 2:
 				intersection_set.add(website)
 
-		f = open(f"/home/nsl400/pt-results/csvs/selenium-pairwise-by-pt-types/Intersection_{pt_t1}-{pt_t2}_{y_axis_var}.csv", 'w')
+		f = open(f"pt-results/csvs/selenium-pairwise-by-pt-types/Intersection_{pt_t1}-{pt_t2}_{y_axis_var}.csv", 'w')
 		f.write("Websites")
 		for pt_t in [pt_t1,pt_t2]:
 			f.write(f",{pt_t}")
@@ -176,92 +161,7 @@ for pt_t1 in union_db:
 			f.write('\n')
 		f.close()
 
-print(f"pairwise csvs made in /home/nsl400/pt-results/csvs/selenium-pairwise-by-pt-types/ folder.")
-
-# #averages taken, structure now db {pt { website = val}}
-# for pt in db:
-# 	for website in db[pt]:
-# 		db[pt][website] = sum(db[pt][website]) / len(db[pt][website])
-
-# #writing to files
-# os.system(f"mkdir -p /home/nsl400/pt-results/csvs/selenium")
-# for pt in db:
-# 	f = open(f"/home/nsl400/pt-results/csvs/selenium/{pt_names[pt]}_{y_axis_var}.csv", 'w')
-# 	f.write("Websites,AvgMetric\n")
-# 	for website in db[pt]:
-# 		f.write(website+','+str(db[pt][website])+'\n')
-# 	f.close()
-
-# #calculating intersection
-# master_weblist = []
-# for pt in db:
-# 	if pt == 2:
-# 		continue
-# 	master_weblist.extend(db[pt])
-
-# intersection_set = set()
-
-# for website in master_weblist:
-# 	if master_weblist.count(website) == len(db)-1:
-# 		intersection_set.add(website)
-
-# # print(len(intersection_set))
-# # input()
-# # print(intersection_set)
-# # exit()
-
-# #now we have the final intersection list
-# f = open(f"/home/nsl400/pt-results/csvs/selenium/Intersection_{y_axis_var}_wo_M.csv", 'w')
-# f.write("Websites")
-# for pt in db:
-# 	if pt == 2:
-# 		continue
-# 	f.write(f",{pt_names[pt]}")
-# f.write('\n')
-# for website in intersection_set:
-# 	f.write(website)
-# 	for pt in db:
-# 		if pt == 2:
-# 			continue
-# 		f.write(f',{str(db[pt][website])}')
-# 	f.write('\n')
-# f.close()
-
-# print("Intersection CSV made and saved in same folder.")
+print(f"pairwise csvs made in pt-results/csvs/selenium-pairwise-by-pt-types/ folder.")
 
 # #############################################################################
 
-# #now we have the final intersection list
-# os.system(f'mkdir -p /home/nsl400/pt-results/csvs/pairwise/selenium')
-
-# for pt1 in db:
-# 	for pt2 in db:
-# 		if (pt1 == pt2) or not(pt1 < pt2):
-# 			continue
-# 		master_weblist = []
-# 		master_weblist.extend(db[pt1])
-# 		master_weblist.extend(db[pt2])
-
-# 		intersection_set = set()
-# 		for website in master_weblist:
-# 			if master_weblist.count(website) == 2:
-# 				intersection_set.add(website)
-
-# 		f = open(f"/home/nsl400/pt-results/csvs/pairwise/selenium/Intersection_{pt_names[pt1]}-{pt_names[pt2]}_{y_axis_var}.csv", 'w')
-# 		f.write("Websites")
-# 		for pt in [pt1,pt2]:
-# 			f.write(f",{pt_names[pt]}")
-# 		f.write('\n')
-# 		for website in intersection_set:
-# 			f.write(website)
-# 			for pt in [pt1,pt2]:
-# 				f.write(f',{str(db[pt][website])}')
-# 			f.write('\n')
-# 		f.close()
-
-# print(f"pairwise csvs made in /home/nsl400/pt-results/csvs/pairwise/selenium/ folder.")
-
-# print(len(intersection_set))
-# input()
-# print(intersection_set)
-# exit()
