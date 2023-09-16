@@ -9,7 +9,7 @@ $cd psiphon-tunnel-core-binaries
 $cd psiphond 
 $./psiphond -ipaddress <server-ip> -protocol OSSH:9999 generate
 
- - it creates a server-entry.dat file, it will be used at client side
+ - it creates a server-entry.dat file, which will be used on the client side
 
 2. start psiphon server
 $cd psiphond/
@@ -28,11 +28,11 @@ $cd psiphon-tunnel-core-binaries
 
 2. copy torrc-psiphon from client-setup folder to your machine
 
-3. start psiphon client and tor process 
+3. start the psiphon client and tor process 
 $cd linux/
 $./psiphon-tunnel-core-x86_64  -config ./client.config &
 $tor -f <path-to-torrc-psiphon>
 #tor will proxy all its data to the psiphon client process listening at port 1080
 
-Test: run below command and see it it able to download the content
+Test: run the below command and see if it is able to download the content
 $curl --socks5 127.0.0.1:9050 -o /dev/null https://www.wikipedia.com/
