@@ -1,16 +1,16 @@
 dnstt Nameserver Records Setup
 ------------------------------
 
-// buy a domain (on namecheap/porkbun et cetera)
+// buy a domain (on namecheap, porkbun, etc.)
 // add your dnstt server's IP as a custom nameserver for a subdomain of your domain, say t.<domain>.xyz (keep a short subdomain like 't' or 'a') and add an NS record for that subdomain (for example ns1.<domain>.xyz) and an A record for this NS record. This A record will have the IP of your dnstt server.
 
-// (for more hints follow see https://www.bamsoftware.com/software/dnstt/)
+// (for more hints follow, see https://www.bamsoftware.com/software/dnstt/)
 
-General Intructions
+General Instructions
 -------------------
 
 - git clone https://www.bamsoftware.com/git/dnstt.git
-// (on both client and server side)
+// (on both the client and server side)
 - cd ./dnstt/dnstt-<client/server>
 
 - go build (both sides)
@@ -43,8 +43,7 @@ Client Setup
 
 Running dnstt
 -------------
-
-// for convenience sake, 2 scripts, one for server and client side each were made to run the starting commands automatically, they have been shared in server_setup and client_setup folders
-// please fill in the blanks in these scripts before trying to run them.
+// For convenience, there are two scripts (for client and server, respectively) to execute the starting commands automatically; these scripts are in the server_setup and client_setup folders
+// Please fill in the blanks in these scripts before trying to run them.
 
 ---------------------------------------------------------------------------------------------
