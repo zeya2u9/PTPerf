@@ -12,7 +12,7 @@ Mapping of PT numbering to actual transports
 7 - Meek  
 8 - Camoufler  
 9 - Dnstt  
-10 - Massbrowser (dropped for measurements)  
+10 - Massbrowser   
 11 - Psiphon  
 12 - Conjure  
 13 - WebTunnel  
