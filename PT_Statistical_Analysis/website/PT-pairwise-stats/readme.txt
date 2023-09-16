@@ -1,4 +1,5 @@
-At this point, raw data files for each type of experiment (Curl, Selenium, File-download and Speed-Index) have been generated. We will use those raw files to generate CSVs for applying statistical tests between pairs of PTs and their categories.
+After completion of the measurements, raw data files for each type of experiment (Curl, Selenium, File-download, and Speed-Index) are automatically generated.
+We will use these raw files to generate CSVs for applying statistical tests between pairs of PTs and their categories.
 
 Generate CSVs for Pairwise PTs
 ------------------------------
@@ -6,11 +7,15 @@ Generate CSVs for Pairwise PTs
   - each script ending with a figure number corresponds to a figure present in the paper.
   - each script ending with the type of experiment name corresponds to the method of measurement done.
 
-- for getting pairwise CSVs for curl experiment run the following script and change the path to the folder where raw data is present -
+- for getting pairwise CSVs for curl experiment run the following scripts and change the path to the folder where raw data is present 
+
+for curl
 $python3 paper_curl.py
 
-similarly for selenium and speedindex
+for selenium 
 $python3 paper_selenium.py
+
+and for speedindex
 $python3 paper_speedIndex.py
 
 - Apply statitical tests
