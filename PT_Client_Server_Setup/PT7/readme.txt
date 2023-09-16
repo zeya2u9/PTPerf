@@ -5,9 +5,9 @@ Meek Client setup
 $git clone https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/meek.git
 $cd meek
 
-1.satisfy dependencies --> setup latest Go version by following steps in https://go.dev/doc/install
+1. Install the necessary dependencies --> setup latest Go version by following the steps at https://go.dev/doc/install
 
-2.Build go module for meek client
+2. Build Go module for meek client
 $cd meek-client
 $go build
 
@@ -18,4 +18,4 @@ $go build
 $tor -f <path-to-torrc>
 
 
-Note: The provided meek-torrc uses one of the Tor provided meek bridgeline; one can replace the meek bridge details with any other Tor provided bridge 
+Note: The provided meek-torrc uses one of the Tor-provided meek bridgeline; one can replace the meek bridge details with any other Tor-provided bridge 
