@@ -1,0 +1,1 @@
+We could not consider Massbrowser for our measurement study as it requires an access code from its developers. We only got one access code for one server location. But we require 9 access codes (for 9 client-server locations).
