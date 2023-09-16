@@ -17,7 +17,7 @@ $sudo pip install -r requirements.txt
 $python setup.py build
 $sudo python setup.py install
 
-One fix: regex2dfa needs to be built from its modified source since it contains some error in its replace.h file present in "regex2dfa/third_party/openfst/src/include/fst/replace.h"
+One fix: regex2dfa must be built from its modified source since it contains some error in its replace.h file present in "regex2dfa/third_party/openfst/src/include/fst/replace.h"
          - change in line 1253 ->template CacheBaseImpl<typename   to ->CacheBaseImpl<typename
 $git clone https://github.com/kpdyer/regex2dfa.git
 $cd /regex2dfa/third_party/openfst/src/include/fst
@@ -53,7 +53,7 @@ $sudo pip install -r requirements.txt
 $python setup.py build
 $sudo python setup.py install
 
-One fix: regex2dfa needs to be built from its modified source since it contains some error in its replace.h file present in "regex2dfa/third_party/openfst/src/include/fst/replace.h"
+One fix: regex2dfa must be built from its modified source since it contains some error in its replace.h file present in "regex2dfa/third_party/openfst/src/include/fst/replace.h"
          - change in line 1253 ->template CacheBaseImpl<typename   to ->CacheBaseImpl<typename
 $git clone https://github.com/kpdyer/regex2dfa.git
 $cd /regex2dfa/third_party/openfst/src/include/fst
@@ -66,5 +66,5 @@ $make
 #replace <server-ip> with the IP address of the machine
 $./bin/marionette_client --server_ip <server-ip> --client_ip 127.0.0.1 --client_port 8079 --format dummy&
 
-Test: run below command and see it it able to download the content
+Test: run the below command and test if it it able to download the content
 $curl --socks5 127.0.0.1:8079 -o /dev/null https://www.wikipedia.com/
