@@ -44,6 +44,6 @@ Client Setup
 Running dnstt
 -------------
 // For convenience, there are two scripts (for client and server, respectively) to execute the starting commands automatically; these scripts are in the server_setup and client_setup folders
-// Please fill in the blanks in these scripts before trying to run them.
+// Please add the appropriate details in these scripts before trying to run them.
 
 ---------------------------------------------------------------------------------------------
