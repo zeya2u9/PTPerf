@@ -31,7 +31,7 @@ There are two folders:
 	     -- From the results of the above scripts, make a single CSV file containing average download times for all file 
                 sizes [5,10,20,50,100MB] for each PT.
 		- let's assume the name of the CSV is all_pts.csv
-		- keep the format of all_pts.csv like below (the first row denotes file sizes, and first column denotes PT 
+		- keep the format of all_pts.csv like below (the first row denotes file sizes, and the first column denotes PT 
                   names)
 			Name , 5MB, 10MB, 20MB, 50MB, 100MB
 			Tor 
