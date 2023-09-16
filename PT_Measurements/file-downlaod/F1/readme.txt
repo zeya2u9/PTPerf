@@ -33,7 +33,7 @@ There are two folders:
 		- let's assume the name of the CSV is all_pts.csv
 		- keep the format of all_pts.csv like below (the first row denotes file sizes, and first column denotes PT 
                   names)
-			Name , 5mb, 10mb, 20mb, 50mb, 100mb
+			Name , 5MB, 10MB, 20MB, 50MB, 100MB
 			Tor 
 			Obfs4
 			...
