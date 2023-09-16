@@ -1,7 +1,7 @@
 # PTPerf
 IMC'23 Artifacts
 
-This repo contains the setup details, source code for starting different pluggable transports (PTs), measurement scripts, and statistical analysis scripts. For more details about our IMC 2023 paper, please see <PTPerf-link>.
+This repo contains the setup details, source code for starting different pluggable transports (PTs), measurement scripts, and statistical analysis scripts. For more details, please refer to our IMC 23 paper "PTPerf: On the performance evaluation of Tor Pluggable Transports."
 
 Repository Structure
 --------------------
