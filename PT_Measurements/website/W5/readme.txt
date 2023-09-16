@@ -6,7 +6,7 @@ Setup browsertime
    - copy the browsertime_install.sh from this folder and run it
    $./browsertime_install.sh
 	
-   It will automatically setup browsertime on your machine.
+   It will automatically set up browsertime on your machine.
 
 Raw_Data_Collection
 -------------------
@@ -18,15 +18,15 @@ Raw_Data_Collection
         - start the measurement (MOT) -
         $python3 browsertime_lover.py tranco  //for tranco-1000
         $python3 browsertime_lover.py blocked  //for blocked-1000
-   - Repeat above steps at each location you want to perform the measurement and save results.
+   - Repeat the above steps at each location you want to perform the measurement and save the results.
 
 Raw_Data_Processing
 -------------------
-2. Raw_Data_Processing: it contains scripts which will process the raw data obtained from step-1
-   - To apply processing scripts over the raw data follow above folder and file structure
+2. Raw_Data_Processing: it contains scripts that will process the raw data obtained from step-1
+   - To apply processing scripts over the raw data, follow above folder and file structure
         -  run w11-website.py file to generate csv files for each PT
         $python3 w11-website.py  //select proper options on prompt to proceed
 
-   - To make graphs out of the processed data, put tranco results in tranco folder and blocked results in blocked folder
+   - To make graphs out of the processed data, put tranco results in tranco folder and blocked results in the blocked folder
         - run plotw11.py
         $python3 plotw11.py  //it will the box-plots for all PTs
