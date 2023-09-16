@@ -8,7 +8,7 @@ $go mod init server
 $go mod tidy
 $go build
 
--It will create a go module named as "server".
+-It will create a Go module named "server".
 
 -copy the server module from server-setup folder to /var/lib/torwebtunnel folder
 $mkdir /var/lib/torwebtunnel
@@ -35,14 +35,14 @@ $mkdir /etc/nginx/ssl/
 $cp /root/.acme.sh/$SERVER_ADDRESS.sslip.io_ecc/$SERVER_ADDRESS.sslip.io.key /etc/nginx/ssl/key.key
 $cp /root/.acme.sh/$SERVER_ADDRESS.sslip.io_ecc/fullchain.cer /etc/nginx/ssl/fullchain.cer
 
--copy nginx.conf file from server-setup folder and copy in below folder
+-copy nginx.conf file from server-setup folder to the below folder
 $cd /etc/nginx/
 
--copy default_server file from server-setup folder and copy in below folder
+-copy default_server file from server-setup folder and copy it to the below folder
 $mkdir /etc/nginx/sites-enabled -p
 $cd /etc/nginx/sites-enabled/
 $rm default
- - replace <ip-of-this-machine> with the IP of your machine in default_server file
+ - replace <ip-of-this-machine> with the IP of your machine in the default_server file
 
 2. Start nginx and webtunnel service
 
@@ -53,7 +53,7 @@ $systemctl status nginx.service
 
 $systemctl start webTunnel.service
 $systemctl status webTunnel.service
-#instead of running a webTunnel service one can also run below line to start the webtunnel server
+#instead of running a webTunnel service, one can also run the below line to start the webtunnel server
 $tor -f /var/lib/torwebtunnel/torrc
 
 
@@ -66,18 +66,18 @@ $git clone https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transport
 $cd webtunnel
 
 1. satisfy dependencies
-   - setup latest Go version by following steps in https://go.dev/doc/install
+   - setup latest Go version by following the steps in https://go.dev/doc/install
 
-2. Build go module for webTunnel client
+2. Build Go module for webTunnel client
 $cd main/client
 $go build
 
 3. copy torrc from client_setup folder to your machine
    - replace <path-to-webtunnel-module> with its absolute path
-   - replace <ip-of-webTunnel-server> with IP address of your webTunnel server 
+   - replace <ip-of-webTunnel-server> with the IP address of your webTunnel server 
    - replace <url-of-website-hosted-at-server-side> with the url of the website hosted at webTunnel server side  
 
 4. start webTunnel client
 $tor -f <path-to-torrc>
 
-NOTE: Above steps are not the only way to setup webtunnel. One can also follow the steps provided on https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel
+NOTE: The above steps are not the only way to set up webtunnel. One can also follow the steps provided on https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel
