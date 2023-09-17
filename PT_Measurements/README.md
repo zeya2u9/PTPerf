@@ -11,8 +11,9 @@ It contains following folders with two subfolders --> [1.raw_data_collection, 2.
 W1 : curl-based experiments  
 W2 : selenium-based experiments  
 W3 : 4.2.1 complete circuit fixing experiments  
-W5 : 4.2.1 fixed guard and variable middle, exit pairs experiment  
-W11 : speed-index using browser-time   
+W4 : 4.2.1 fixed guard and variable middle, exit pairs experiment  
+W5 : speed-index using browser-time   
+W6 : evaluating PTs without Tor 
 
 File-download related
 ---------------------
