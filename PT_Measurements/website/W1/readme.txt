@@ -53,5 +53,10 @@ There are two folders -
 	$python3 plott1.py  //it will plot the CDF of TTFB for all PTs (fig-6)
 
 	- run plotl1.py  
-	$python3 plotl1.py  //it will plot the box plots for three client location (Bangalore, london and Toronto) for meek, snowflake and obfs4 (fig-7)
+	$python3 plotl1.py  //it will plot the box plots for three client location (Bangalore, London and Toronto) for meek, snowflake and obfs4 (fig-7)
 
+	- run snowflake_data_graph.py script
+	$python3 snowflake_data_graph.py //it will plot fig-10a in the paper; it uses userstats-bridge-transport-multi.csv presenet at https://gitlab.torproject.org/dcf/snowflake-graphs (fig-10a)
+
+        - run zplotw9.py script
+        $python3 zplotw9.py //it will plot fig-10b in the paper

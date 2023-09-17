@@ -58,11 +58,4 @@ There are two folders:
 	- run plotf3.py script using Final_download_count.csv
 	$python3 plotf3.py //it will make a stacked-bar graph depicting the %tage of complete/partial/failed downloads for all PTs (fig-8a)
 
-	- run plotf1_file-perc.py script
-	$python3 plotf1_file-perc.py //it will make an ECDF of meek, dnstt and snowflake's %tage downloads (fig-8b)
 
-	- run snowflake_data_graph.py script
-	$python3 snowflake_data_graph.py //it will plot fig-10a in the paper; it uses userstats-bridge-transport-multi.csv presenet at https://gitlab.torproject.org/dcf/snowflake-graphs (fig-10a)
-	
-	- run zplotw9.py script
-	$python3 zplotw9.py //it will plot fig-10b in the paper
