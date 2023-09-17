@@ -19,7 +19,8 @@ Mapping of PT numbering to actual transports
 
 Each PT<x> folder has
 ---------------------
-client_setup, and  
-server_setup
+client_setup,  
+server_setup, and
+readme.txt
 
 
