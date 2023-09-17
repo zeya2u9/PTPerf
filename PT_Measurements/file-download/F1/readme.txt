@@ -38,8 +38,31 @@ There are two folders:
 			Obfs4
 			...
 			...
-	The above script will also print the number of failures in downloads by all PTs.
-  
-   - To make graphs out of the processed data (all_pts.csv), run plotf1.py script
-	$python3 plotf1.py  //it will make a point graph for all PTs download times
 
+	- The above script(z-file-dbmake.py) will also print the number of failures in downloads by all PTs (on the terminal).
+	    -- Copy those lines and save in a CSV file named as Final_download_count.csv with following format  (first row contains the PT names, first column contains the file-size values)
+
+			S.N.   ,Tor      ,  Obfs4,   .............. , WebTunnel
+			5mb   ,[x, y, z] , [x, y, z] .............. , [x, y, z]
+			10mb  ,[x, y, z] , [x, y, z] .............. , [x, y, z]
+			20mb  ,[x, y, z] , [x, y, z] .............. , [x, y, z]
+			50mb  ,[x, y, z] , [x, y, z] .............. , [x, y, z]
+			100mb ,[x, y, z] , [x, y, z] .............. , [x, y, z]
+		[x, y, z] --> x denotes the count of complete downloads, y denotes the count of partial downloads, z denotes the count of failed downloads
+
+   - To make graphs out of the processed data follow below lines
+	
+	- run plotf1.py script using all-pts.csv
+	$python3 plotf1.py  //it will make a point graph for all PTs download times (fig-5)
+
+	- run plotf3.py script using Final_download_count.csv
+	$python3 plotf3.py //it will make a stacked-bar graph depicting the %tage of complete/partial/failed downloads for all PTs (fig-8a)
+
+	- run plotf1_file-perc.py script
+	$python3 plotf1_file-perc.py //it will make an ECDF of meek, dnstt and snowflake's %tage downloads (fig-8b)
+
+	- run snowflake_data_graph.py script
+	$python3 snowflake_data_graph.py //it will plot fig-10a in the paper; it uses userstats-bridge-transport-multi.csv presenet at https://gitlab.torproject.org/dcf/snowflake-graphs (fig-10a)
+	
+	- run zplotw9.py script
+	$python3 zplotw9.py //it will plot fig-10b in the paper
