@@ -24,10 +24,10 @@ There are two folders -
 
 2. Raw_Data_Processing: it contains scripts that will process the raw data obtained from step 1
    - To apply processing scripts over the raw data, follow the above folder and file structure
-        - run selenium-z-file-dbmake.py to get the average download time for each PT
-        $python3 selenium-z-file-dbmake.py 
+        - run selenium-z-file-dbmake.py to print the average download time for each PT (on the terminal)
+        $python3 selenium-z-file-dbmake.py //Alternate: you can also run selenium-file-graphs.py to get processed results in the form a CSV file for each PT individually. 
 	     -- from the results of the above scripts, make a single CSV file containing average download times for all file sizes [5,10,20,50,100MB] for each PT.
-		- the name of the final combined PTs should be all_pts.csv
+		- the name of the final combined CSV should be all_pts.csv
 		- keep the format of all_pts.csv like below (the first row denotes file-sizes and the first column denotes PT names)
 			Name , 5mb, 10mb, 20mb, 50mb, 100mb
 			Tor 
@@ -37,7 +37,6 @@ There are two folders -
 		- all_pts.csv will be used in making fig-5 of the paper.
 
 	The above script(selenium-z-file-dbmake.py) will also print the number of failures in downloads by all PTs.
-  	Alternate: you can also run selenium-file-graphs.py to get processed results in the form a CSV file for each PT individually. 
 
    - To make graphs out of the processed data (all_pts.csv), run plotf2.py script
 	$python3 plotf2.py  //it will make a point graph for all PTs download times
