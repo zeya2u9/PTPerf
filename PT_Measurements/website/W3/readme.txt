@@ -41,8 +41,15 @@ Raw_Data_Processing
 		tor_obfs4_webTunnel_2500_count.csv
 		
    - To make graphs out of the processed data, put tranco results in the same folder as the below script:
-        - run plotw3.py
-        $python3 plotw3.py  //it will the box-plots for all PTs
-
+        
+	- run plotw3.py
+        $python3 plotw3.py  //it will make the box-plots for all PTs (fig-3a)
+	
+	- To make fig-3b in paper do some manual work on the tor_obfs4_webTunnel_2500_count.csv 
+	  --> make two CSVs with following names
+	      - tor_obfs4_2500_count_for_histogram.csv //it will have a column 'Torobfs4' with time-differences between Tor_time and Obfs4_time
+	      - tor_webTunnel_2500_count_for_histogram.csv //it will have a column 'TorWebTunnel' with time-differences between Tor_time and WebTunnel_time 
+	  - now run plotw4.py
+	  $python3 plotw4.py  //it will make the CDF for time-differences between Tor-obfs4 and Tor-webTunnel (fig-3b)
 
 

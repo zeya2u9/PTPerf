@@ -5,7 +5,7 @@ import json
 from math import nan, isnan
 import statistics
 
-base_dir = 'W-Website/W1'
+base_dir = '~/W1'
 individual_dir = ['tranco-1000']#,'blocked-1000']
 # labels = ['Tor', 'obfs4', 'Marionette', 'Shadowsocks', 'Stegotaurus', 'Cloak', 'Snowflake', 'Meek', 'Camoufler', 'dnstt', \
 #     'Psiphon', 'Conjure', 'Webtunnel']
