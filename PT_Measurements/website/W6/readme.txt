@@ -44,8 +44,7 @@ Raw_Data_Processing
         -  run curl_tor_ptwithTor_curl_1000.py file to generate csv files for each PT
         $python3 curl_tor_ptwithTor_curl_1000.py  //select proper options on prompt to proceed (location, Total_time, TTFB, etc.)
 		
-   - To make graphs out of the processed data, put CSVs in the same folder as the below script:
-        
+   - To make graphs out of the processed data, put CSVs and plotpt1box.py in the same folder:        
 	- run plotpt1box.py
         $python3 plotpt1box.py  //it will make the box-plots for all PTs (fig-9)
 	
