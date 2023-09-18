@@ -40,8 +40,9 @@ There are two folders:
 			...
 
 	- The above script(z-file-dbmake.py) will also print the number of failures in downloads by all PTs (on the terminal).
-	    -- Copy those lines and save in a CSV file named as Final_download_count.csv with following format  (first row contains the PT names, first column contains the file-size values)
 
+	- run all-z-file-dbmake_partial_full_failed.py 
+	$python3 all-z-file-dbmake_partial_full_failed.py //it will generate a CSV file named as Final_download_count.csv with following format  (first row contains the PT names, first column contains the file-size values)
 			S.N.   ,Tor      ,  Obfs4,   .............. , WebTunnel
 			5mb   ,[x, y, z] , [x, y, z] .............. , [x, y, z]
 			10mb  ,[x, y, z] , [x, y, z] .............. , [x, y, z]
@@ -49,6 +50,10 @@ There are two folders:
 			50mb  ,[x, y, z] , [x, y, z] .............. , [x, y, z]
 			100mb ,[x, y, z] , [x, y, z] .............. , [x, y, z]
 		[x, y, z] --> x denotes the count of complete downloads, y denotes the count of partial downloads, z denotes the count of failed downloads
+
+	- run file_perc_d-file-dbmake.py to get the percentage of file-download for all pts (for all file-sizes in each round)
+	$python3 file_perc_d-file-dbmake.py // it will generate separate CSV files for each PT in file_perc_csvs/ folder
+	
 
    - To make graphs out of the processed data follow below lines
 	
@@ -58,4 +63,5 @@ There are two folders:
 	- run plotf3.py script using Final_download_count.csv
 	$python3 plotf3.py //it will make a stacked-bar graph depicting the %tage of complete/partial/failed downloads for all PTs (fig-8a)
 
-
+	- run plotf1_file-perc.py 
+	$python3 plotf1_file-perc.py //it will make an ECDF of percentage download by meek, dnstt and snowflake. (fig-8b)
