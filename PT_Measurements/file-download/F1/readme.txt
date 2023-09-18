@@ -57,11 +57,11 @@ There are two folders:
 
    - To make graphs out of the processed data follow below lines
 	
-	- run plotf1.py script using all-pts.csv
+	- run plotf1.py using all-pts.csv
 	$python3 plotf1.py  //it will make a point graph for all PTs download times (fig-5)
 
-	- run plotf3.py script using Final_download_count.csv
+	- run plotf3.py using Final_download_count.csv
 	$python3 plotf3.py //it will make a stacked-bar graph depicting the %tage of complete/partial/failed downloads for all PTs (fig-8a)
 
-	- run plotf1_file-perc.py 
+	- run plotf1_file-perc.py using CSVs present in file_perc_csvs/
 	$python3 plotf1_file-perc.py //it will make an ECDF of percentage download by meek, dnstt and snowflake. (fig-8b)
