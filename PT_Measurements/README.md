@@ -6,7 +6,7 @@ This folder contains scripts to start the measurements of the following types:
 
 Website related
 ---------------
-It contains following folders with two subfolders --> [1.raw_data_collection, 2.Processing_raw_Data] 
+It contains following folders with two subfolders --> [1.Raw_Data_Collection, 2.Raw_Data_Processing] 
 
 W1 : curl-based experiments  
 W2 : selenium-based experiments  

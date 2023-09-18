@@ -19,8 +19,8 @@ Mapping of PT numbering to actual transports
 
 Each PT<x> folder has
 ---------------------
-client_setup,  
-server_setup, and
-readme.txt
+1. client_setup folder containing scripts related to PT client setup,  
+2. server_setup folder containing scripts related to PT server setup , and
+3. Detailed readme.txt explaining how to build the setup for PT client and PT server
 
 
