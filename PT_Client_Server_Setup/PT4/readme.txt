@@ -31,7 +31,7 @@ $ ./configure [--without-boost]
 $ sudo make
 
 2. start stegotorus client (<server-ip> : replace it with the IP of stegortorus server)
-$./stegotorus --log-min-severity=debug --timestamp-logs chop client --passphrase "correct passphrase" --trace-packets --disable-retransmit 127.0.0.1:5001 nosteg_rr 134.122.113.191:5000
+$./stegotorus --log-min-severity=debug --timestamp-logs chop client --passphrase "correct passphrase" --trace-packets --disable-retransmit 127.0.0.1:5001 nosteg_rr <server-ip>:5000
 
 Test: run the below command to test if it it able to download the content
 $curl --socks5 127.0.0.1:5001 -o /dev/null https://www.wikipedia.com/
