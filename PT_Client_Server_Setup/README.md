@@ -24,3 +24,4 @@ Each PT<x> folder has
 3. Detailed readme.txt explaining how to build the setup for PT client and PT server
 
 
+Note: All setup instructions are applicable to Ubuntu-20.04 operating system(kernel version 5.15 generic) in all client and server machines.
