@@ -27,7 +27,7 @@ $python3 typewiseunion_speedIndex.py
 
 Generate statistical results over the generated CSVs 
 ------------------------------------------------------ 
-- for getting PT category-wise stats, run the following script 
+- for getting PT category-wise stats, run the following script: 
 $python3 pt_pairwise_fig2a_category.py
 $python3 pt_pairwise_fig2b_category.py
 $python3 pt_pairwise_fig11_category.py
