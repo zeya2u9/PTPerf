@@ -7,7 +7,7 @@ dnstt Nameserver Records Setup
 // (for more hints follow, see https://www.bamsoftware.com/software/dnstt/)
 
 General Instructions
--------------------
+--------------------
 
 - git clone https://www.bamsoftware.com/git/dnstt.git
 // (on both the client and server side)
