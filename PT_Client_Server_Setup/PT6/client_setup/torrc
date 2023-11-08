@@ -1,3 +1,8 @@
+#########################################################################
+#    Use torrc provided in snowflake/client/ folder originally
+#  Below url/front/ice lines may not work for newer versions of snowflake
+#########################################################################
+
 SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
 
 DataDirectory datadir
